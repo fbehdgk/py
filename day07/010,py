@@ -1,0 +1,11 @@
+numbers = [1,3,5,7]
+value = 5
+# 내가 삭제할 값 : 2번위치에 있음
+# 위치를 찾아서 삭제하는거
+value  =5 
+index = 0
+for num in numbers:
+    if value == num:
+        print(index)
+    index = index+1     
+    
